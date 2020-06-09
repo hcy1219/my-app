@@ -40,19 +40,13 @@ class Form extends Component {
                     id="date"
                     value={date} 
                     onChange={this.handleChange} />
-                <label for="job">Job</label>
+                
+                <label for="job">&nbsp;&nbsp;&nbsp;What to do?</label>
                 <input 
                     type="text" 
                     name="job" 
                     id="job"
                     value={job} 
-                    onChange={this.handleChange} />
-                <label for="status">Status</label>
-                <input 
-                    type="text" 
-                    name="status" 
-                    id="status"
-                    value={status} 
                     onChange={this.handleChange} />
                 <button type="submit">
                     Add
